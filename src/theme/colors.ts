@@ -1,0 +1,16 @@
+export const colors = {
+  verdeTerra: '#2F5D3A',
+  verdeTerraEscuro: '#244A2D',
+  verdeBroto: '#7CB342',
+  terracota: '#B5642B',
+  alertaVermelho: '#C0392B',
+  amareloCampo: '#E0A831',
+  verdeSinal: '#3DAA57',
+  begePapel: '#F6F2EA',
+  begeCard: '#FBFAF3',
+  grafite: '#26302A',
+  grafiteSuave: '#3A4640',
+  cinzaNeutro: '#6E7A72',
+  linha: 'rgba(47,93,58,0.16)',
+  branco: '#FFFFFF',
+} as const;

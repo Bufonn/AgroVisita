@@ -10,8 +10,11 @@
       "supportsTablet": true
     },
     "android": {
+      "androidStatusBar": {
+        "hidden": true
+      },
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#2F5D3A",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -19,6 +22,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      ["expo-image-picker", {
+        "cameraPermission": "AgroVisita precisa acessar a câmera para registrar evidências fotográficas da auditoria.",
+        "photosPermission": "AgroVisita precisa acessar suas fotos para anexar evidências à auditoria."
+      }],
+      ["expo-location", {
+        "locationWhenInUsePermission": "AgroVisita precisa acessar sua localização para georreferenciar a propriedade auditada."
+      }],
+      ["expo-contacts", {
+        "contactsPermission": "AgroVisita precisa acessar seus contatos para vincular o produtor ou representante à auditoria."
+      }]
+    ]
   }
 }
