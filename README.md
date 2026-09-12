@@ -219,6 +219,10 @@ npx expo-doctor       # 21/21 checks — dependências e configuração
 
 ---
 
+## 📷 Vídeo Demonstrativo: [https://youtube.com/shorts/K1ZpoK_SLX8]
+
+---
+
 ## 🗂️ Licença
 
 Este projeto está sob a **MIT License** — consulte o arquivo [`LICENSE`](./LICENSE).
